@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+</head>
+<body>
+    <table border="1">  <!-- note - dont forgot border attribute -->
+        <caption>student information</caption>
+        <tr>
+            <td colspan="2">hellllooo</td>  <!-- colspan include 1st column of row and plus the number of row u want to merge, in this case a value of 3 would merge all 3 columns into 1-->
+        </tr>
+        <tr>
+            <th>name</th>
+            <th>rollno</th>
+            <th>class</th>
+        </tr>
+        <tr>
+            <td>anantha</td>
+            <td>1</td>
+            <td>12</td>
+        </tr>
+        <tr>
+            <td>krishnan</td>
+            <td>2</td>
+            <td>13</td>
+            <td>23</td>    <!-- any extra column will be added to this row only and other row left empty -->
+        </tr>
+    </table>
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms2</title>
+</head>
+<body>
+    <form action="/data.php">
+
+        <!-- type="text" -->
+        <label for="name">Username</label>
+        <input type="text" placeholder="enter name" name="name"  id="name"><br>
+
+        <!-- type="password" -->
+        <label for="pass">password</label>
+        <input type="password" placeholder="enter your password" name="password" id="pass"><br>
+        
+        <!-- type="date" -->
+        <label for="date">Date</label>
+        <input type="date" id="date"><br><br>
+
+        <!-- type="file" -->
+        <label for="file">upload file</label>
+        <input type="file" id="file"><br><br>
+
+        <!-- type="range" -->
+        <label for="range">price range</label>
+        <input type="range" id="range"><br>
+
+        <!-- type="color" -->
+        <label for="color">Choose color</label>
+        <input type="color" id="color"><br><br>
+
+        <!-- type="radio" -->
+        <input type="button" value="click me" id="button" ><br><br>
+        <label for="male">Male</label>
+        <input type="radio" value="male" id="male" name="gender"><br>
+        <label for="female">Female</label>
+        <input type="radio" value="female" id="female" name="gender"><br>
+        <label for="other">Other</label>
+        <input type="radio" id="other" name="gender" value="other"><br><br>
+        
+        <!-- type="checkbox" -->
+        <label for="red">Red</label>
+        <input type="checkbox" id="red" name="favcolor" value="red"><br>
+        <label for="yellow">Yellow</label>
+        <input type="checkbox" id="yellow" name="favcolor" value="yellow"><br>
+        <label for="black">Black</label>
+        <input type="checkbox" id="black" name="faccolor" value="black"><br><br>
+        
+        <!-- select -->
+        <label for="fruits">Country</label>
+        <select name="fruits" id="fruits">
+            <option value="apple">Apple</option>
+            <option value="mango">Mango</option>
+            <option value="grape">Grape</option>
+            <option value="banana">banana</option>
+        </select><br><br>
+
+
+        <!-- type="submit" -->
+        <input type="submit" value="submit"><br><br>
+
+    </form>
+</body>
+</html>
